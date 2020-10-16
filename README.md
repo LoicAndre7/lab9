@@ -20,16 +20,16 @@ d'infection qu'ils ont et leur adresse les bons comportements à suivre.
 + [Code source](https://gitlab.info.uqam.ca/lesieur.daniel/inm5001-covid19/-/tree/master/codeSource)
 
 ### Dépendances
-#### Installalation paquet serveur Apache, PHP, MySQL qui correspond votre machine :
-- [MAMP pour Windows et MAC](https://www.mamp.info/en/mamp/windows/)
-- [LAMP pour linux (ubuntu)](https://ubuntu.com/server/docs/lamp-applications)
+- Installer le paquet serveur Apache, PHP, MySQL qui correspond votre machine :
+  - [MAMP pour Windows et MAC](https://www.mamp.info/en/mamp/windows/)
+  - [LAMP pour linux (ubuntu)](https://ubuntu.com/server/docs/lamp-applications)
 
-#### Création de la base de donnée :  
-1. Lancer mysql avec la ligne de commande en mode root  
-2. Exécuter le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
-```mysql> source cheminDuFichierScript.sql```
-3. Au besoin accorder les privilèges sur la base de donnée créée:  
-```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'votreNomUtilisateur'@'localhost';```
+- Création de la base de donnée :  
+  1. Lancer mysql avec la ligne de commande en mode root  
+  2. Exécuter le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
+     ```mysql> source cheminDuFichierScript.sql```
+  3. Au besoin accorder les privilèges sur la base de donnée créée:  
+     ```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'votreNomUtilisateur'@'localhost';```
 
 
 ### Configuration
