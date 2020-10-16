@@ -26,7 +26,8 @@ Installer le paquet serveur Apache, PHP, MySQL qui correspond votre machine :
 
 Création de la base de donnée :  
 1. Lancer mysql avec la ligne de commande en mode root  
-2. Lancer le fichier scriptSQL.sql qui se trouve dans le dossier sql :  ``` mysql> source chemin_du_fichier_Script.sql```
+2. Lancer le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
+``` mysql> source chemin_du_fichier_Script.sql```
 
 
 
