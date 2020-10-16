@@ -29,13 +29,13 @@ Création de la base de donnée :
 2. Lancer le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
 ```mysql> source chemin_du_fichier_Script.sql```
 3. Au besoin accorder les privilèges sur la base de donnée créée:  
-```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'votre_Nom_Utilisateur'@'localhost';```
+```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'votreNomUtilisateur'@'localhost';```
 
 
 ### Configuration
 
-- Renomer au besoin et déplacez le dossier codeSource dans le repertoir localhost de votre machine.
-- Modifier le fichier config.php qui se trouve dans le dossier login:  
+- Renommer au besoin et déplacer le dossier ```codeSource``` dans le repertoir localhost de votre machine.
+- Modifier le fichier config.php qui se trouve dans le dossier ```login```:  
   Renseigner les champs ```'DB_USERNAME'``` et ```'DB_PASSWORD'``` avec ceux de votre compte mysql
 - 
 
