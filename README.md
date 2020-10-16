@@ -34,7 +34,8 @@ Création de la base de donnée :
 
 - Renomer au besoin et déplacez le dossier codeSource dans le repertoir localhost de votre machine.
 - Modifier le fichier config.php qui se trouve dans le dossier login:  
-  Renseigner les champs 'DB_USERNAME' et 'DB_PASSWORD' avec ceux d'un compte mysql valide
+  Renseigner les champs ```'DB_USERNAME'``` et ```'DB_PASSWORD'``` avec ceux de votre compte mysql
+- 
 
 
 ### Liens utiles
