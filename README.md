@@ -20,8 +20,8 @@ d'infection qu'ils ont et leur adresse les bons comportements à suivre.
 + [Code source](https://gitlab.info.uqam.ca/lesieur.daniel/inm5001-covid19/-/tree/master/codeSource)
 
 ### Dépendances
-Installer le paquet serveur Apache, PHP, MySQL qui correspond votre machine :  
-- [MAMP pour Windows et MAC](https://www.mamp.info/en/mamp/windows/)  
+Installer le paquet serveur Apache, PHP, MySQL qui correspond votre machine :
+- [MAMP pour Windows et MAC](https://www.mamp.info/en/mamp/windows/)
 - [LAMP pour linux(ubuntu)](https://ubuntu.com/server/docs/lamp-applications)
 
 Création de la base de donnée :  
