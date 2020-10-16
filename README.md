@@ -1,4 +1,4 @@
-# lab9# INM5001-COVID19
+# INM5001-COVID19
 # Équipe 5
 
 
@@ -26,7 +26,7 @@ d'infection qu'ils ont et leur adresse les bons comportements à suivre.
 
 - Création de la base de donnée :
   - Lancer mysql avec la ligne de commande en mode root.
-  - Exécuter le fichier scriptSQL.sql qui se trouve dans le dossier sql :
+  - Exécuter le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
      ```mysql> source cheminDuFichierScript.sql```
   - Au besoin accorder les privilèges sur la base de donnée créée :  
      ```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'votreNomUtilisateur'@'localhost';```
