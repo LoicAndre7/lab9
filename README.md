@@ -22,11 +22,11 @@ d'infection qu'ils ont et leur adresse les bons comportements à suivre.
 ### Dépendances
 Installer le paquet serveur Apache, PHP, MySQL qui correspond votre machine :
 - [MAMP pour Windows et MAC](https://www.mamp.info/en/mamp/windows/)
-- [LAMP pour linux(ubuntu)](https://ubuntu.com/server/docs/lamp-applications)
+- [LAMP pour linux (ubuntu)](https://ubuntu.com/server/docs/lamp-applications)
 
 Création de la base de donnée :  
 1. Se connecter à mysql depuis votre terminal avec les droits root  
-2. Lancer le fichier scriptSQL.sql :  ' mysql> source chemin_du_fichier_Script.sql'
+2. Lancer le fichier scriptSQL.sql : ``` mysql> source chemin_du_fichier_Script.sql'```
 
 ### Liens utiles
 + [Calendrier du projet](https://calendar.google.com/calendar/u/0?cid=MW80dm5rYTJ2M2U0amtiMW81aDhsZHNxajhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
