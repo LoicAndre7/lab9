@@ -28,8 +28,8 @@ Création de la base de donnée :
 1. Lancer mysql avec la ligne de commande en mode root  
 2. Lancer le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
 ```mysql> source chemin_du_fichier_Script.sql```
-3. Au besoin accorder les privilèges sur la base de donnée: 
-```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'username'@'localhost';```
+3. Au besoin accorder les privilèges sur la base de donnée créée:  
+```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'votre_Nom_Utilisateur'@'localhost';```
 
 
 ### Configuration
