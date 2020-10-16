@@ -20,11 +20,11 @@ d'infection qu'ils ont et leur adresse les bons comportements à suivre.
 + [Code source](https://gitlab.info.uqam.ca/lesieur.daniel/inm5001-covid19/-/tree/master/codeSource)
 
 ### Dépendances
-Installer le paquet serveur Apache, PHP, MySQL qui correspond votre machine :
+#### Installalation paquet serveur Apache, PHP, MySQL qui correspond votre machine :
 - [MAMP pour Windows et MAC](https://www.mamp.info/en/mamp/windows/)
 - [LAMP pour linux (ubuntu)](https://ubuntu.com/server/docs/lamp-applications)
 
-Création de la base de donnée :  
+#### Création de la base de donnée :  
 1. Lancer mysql avec la ligne de commande en mode root  
 2. Exécuter le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
 ```mysql> source cheminDuFichierScript.sql```
@@ -35,7 +35,7 @@ Création de la base de donnée :
 ### Configuration
 
 - Renommer au besoin et déplacer le dossier ```codeSource``` dans le répertoir localhost de votre machine.
-- Modifier le fichier config.php qui se trouve dans le dossier ```login```:  
+- Modifier le fichier ```config.php``` qui se trouve dans le dossier ```login```:  
   Renseigner les champs ```'DB_USERNAME'``` et ```'DB_PASSWORD'``` avec ceux de votre compte mysql
 
 
