@@ -26,18 +26,18 @@ Installer le paquet serveur Apache, PHP, MySQL qui correspond votre machine :
 
 Création de la base de donnée :  
 1. Lancer mysql avec la ligne de commande en mode root  
-2. Lancer le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
-```mysql> source chemin_du_fichier_Script.sql```
+2. Exécuter le fichier scriptSQL.sql qui se trouve dans le dossier sql :  
+```mysql> source cheminDuFichierScript.sql```
 3. Au besoin accorder les privilèges sur la base de donnée créée:  
 ```mysql> GRANT ALL PRIVILEGES ON BD-COVID19.* TO 'votreNomUtilisateur'@'localhost';```
 
 
 ### Configuration
 
-- Renommer au besoin et déplacer le dossier ```codeSource``` dans le repertoir localhost de votre machine.
+- Renommer au besoin et déplacer le dossier ```codeSource``` dans le répertoir localhost de votre machine.
 - Modifier le fichier config.php qui se trouve dans le dossier ```login```:  
   Renseigner les champs ```'DB_USERNAME'``` et ```'DB_PASSWORD'``` avec ceux de votre compte mysql
-- 
+
 
 
 ### Liens utiles
@@ -46,5 +46,5 @@ Création de la base de donnée :
 + [Compte rendu des rencontres](https://docs.google.com/document/d/19LNOsKly7Fvz6T6qtlRWqnrli2xr52PBQkL-vL6xTsg/edit?usp=sharing)
 
 ### Licence
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Cette œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+Copyright &copy; 2020 projet COVID-19 INM5001
 
